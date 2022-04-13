@@ -87,9 +87,9 @@
 </section>
 
 <section class="container p-0 pb-5" id="content">
-  <h2 class="outfit-font fw-500 title-primary py-3 mb-5 ps-3">PROCURE POR CATEGORIA</h2>
+  <h2 class="outfit-font fw-500 title-light py-3 mb-5 ps-3">PROCURE POR CATEGORIA</h2>
 
-  <div class="row p-2">
+  <div class="row p-0">
     <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
       <img src="{{asset('img/array_cat_front-end.png')}}" class="card-img-top" id="card-visible">
       <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
@@ -121,20 +121,8 @@
     </div>
   </div>
 </section>
-
-<section class="bg-banner-podcast p-4">
-    <div class="row p-2 justify-content-center align-items-center text-center">
-      <div class="col-lg-6 p-3 rounded-0">
-        <h3 class="lh-1 outfit-font fw-500 text-light">QUER APRENDER MAIS?</h3>
-        <h1 class="display-4 lh-1 outfit-font fw-500 text-light">Ouca nosso podcast</h1>
-        <p class="lead text-light py-3">Curso Starter completo para quem quer começar a programar, incluindo <span class="fw-bold text-white">Lógica de Programação</span>, <span class="fw-bold text-white">Linguagem C</span> e <span class="fw-bold text-white">Programação Estruturada</span>.</p>
-        <div class="d-flex justify-content-center">
-          <a href="{{route('site-course', 'teste')}}" type="button" class="btn bg-green btn-banner btn-lg fw-bolder outfit-font"><i class="fa-brands fa-spotify me-2"></i> Ir para o Spotify</a>
-        </div>
-      </div>
-    </div>
-</section>
 @endsection
+
 
 
 @section('scripts')

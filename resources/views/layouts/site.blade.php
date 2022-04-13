@@ -182,6 +182,18 @@
 
         <main class="">
             @yield('content')
+            <section class="bg-banner-podcast p-4">
+              <div class="row p-2 justify-content-center align-items-center text-center">
+                <div class="col-lg-6 p-3 rounded-0">
+                  <h3 class="lh-1 outfit-font fw-500 text-light">QUER APRENDER MAIS?</h3>
+                  <h1 class="display-4 lh-1 outfit-font fw-500 text-light">Ouça nosso podcast.</h1>
+                  <p class="lead text-light py-3">Curso Starter completo para quem quer começar a programar, incluindo <span class="fw-bold text-white">Lógica de Programação</span>, <span class="fw-bold text-white">Linguagem C</span> e <span class="fw-bold text-white">Programação Estruturada</span>.</p>
+                  <div class="d-flex justify-content-center">
+                    <a href="{{route('site-course', 'teste')}}" type="button" class="btn bg-green btn-banner btn-lg fw-bolder outfit-font"><i class="fa-brands fa-spotify me-2"></i> Ir para o Spotify</a>
+                  </div>
+                </div>
+              </div>
+            </section>
         </main>
         
         <footer id="footer" class="footer">
