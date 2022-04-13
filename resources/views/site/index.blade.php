@@ -86,36 +86,39 @@
   </div>
 </section>
 
-<section class="container p-0 pb-5">
+<section class="container p-0 pb-5" id="content">
   <h2 class="outfit-font fw-500 title-primary py-3 mb-5 ps-3">PROCURE POR CATEGORIA</h2>
-  <div class="row d-flex flex-direction-row justify-content-left p-2">
 
-    <div class="col-xs-12 col-sm-6 col-md-2 card bg-transparent border-0 rounded-0">
-        <img src="{{asset('img/array_cat_front-end.png')}}" class="card-img-top" alt="..." width="50px">
+  <div class="row p-2">
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_front-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-2 card bg-transparent border-0 rounded-0">
-        <img src="{{asset('img/array_cat_back-end.png')}}" class="card-img-top" alt="..." width="50px">
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_back-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
     </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-4 d-flex justify-content-between flex-column">
-      <div class="col-xs-12 col-sm-12 col-md-12 card bg-transparent border-0 rounded-0">
-          <img src="{{asset('img/array_cat_lat_uiux.png')}}" class="card-img-top" alt="..." width="100%" height="137px">
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 card bg-transparent border-0 rounded-0">
-          <img src="{{asset('img/array_cat_lat_uiux.png')}}" class="card-img-top" alt="..." width="100%" height="137px">
-      </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_front-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
     </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-4 d-flex justify-content-between flex-column">
-      <div class="col-xs-12 col-sm-12 col-md-12 card bg-transparent border-0 rounded-0">
-          <img src="{{asset('img/array_cat_lat_uiux.png')}}" class="card-img-top" alt="..." width="100%" height="137px">
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 card bg-transparent border-0 rounded-0">
-          <img src="{{asset('img/array_cat_lat_uiux.png')}}" class="card-img-top" alt="..." width="100%" height="137px">
-      </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_back-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
     </div>
 
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_front-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12 card bg-transparent border-0 rounded-0">
+      <img src="{{asset('img/array_cat_back-end.png')}}" class="card-img-top" id="card-visible">
+      <a href="#" class="text-center text-dark fs-4 outfit-font text-uppercase text-decoration-none py-3 title-light" id="title-visible">teste</a>
+    </div>
   </div>
 </section>
 

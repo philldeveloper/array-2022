@@ -1,4 +1,4 @@
-body {
+/* body {
     min-width: 60rem !important;
     overflow-x: hidden !important;
 }
@@ -8,9 +8,10 @@ body, #app {
     min-height: 100vh !important;;
     flex-direction: column !important;;
 }
+
 #app{
     flex: 1 0 auto !important;;
-}
+} */
 
 .card *{
     border-radius: 0 !important;
@@ -262,4 +263,37 @@ footer#footer .footer-top .footer-contact {
 
 footer#footer .footer-top .footer-contact p {
     line-height: 26px
+}
+
+
+@media (min-width: 400px) and (max-width: 768px){
+
+    #card-visible {
+        display: none !important;
+    }
+
+    #title-visible {
+        display: visible !important;
+    }
+
+    .col-lg-2.col-md-4.col-sm-12{
+        margin-bottom: 10px;
+    }
+
+    .row>.col-lg-2.col-md-4.col-sm-12{
+        padding: 0 !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+
+    .col-lg-2.col-md-4.col-sm-12{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 769px){
+    #title-visible {
+        display: none !important;
+    }
 }
