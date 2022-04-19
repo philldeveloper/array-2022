@@ -13,6 +13,10 @@ body, #app {
     flex: 1 0 auto !important;;
 } */
 
+body *{
+    /* font-family: 'Poppins', sans-serif; */
+}
+
 .card *{
     border-radius: 0 !important;
 }
@@ -25,8 +29,14 @@ body, #app {
 .cabin-font{
     font-family: 'Cabin', sans-serif !important;
 }
+.orbitron-font{
+    font-family: 'Orbitron', sans-serif !important;
+}
 .red-hat-font{
     font-family: 'Red Hat Display', sans-serif;
+}
+.poppins-font{
+    font-family: 'Poppins', sans-serif !important;
 }
 .fw-500{
     font-weight: 500 !important;
@@ -37,7 +47,8 @@ body, #app {
 
 /*backgrounds*/
 .bg-banner{
-    background: linear-gradient(0deg, rgb(20 95 255 / 40%), rgb(200 0 117 / 70%)), url('https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background: linear-gradient(0deg, rgb(20 95 255 / 40%), rgb(200 0 117 / 70%)), url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    /* background: linear-gradient(0deg, rgb(20 95 255 / 40%), rgb(200 0 117 / 70%)); */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0;

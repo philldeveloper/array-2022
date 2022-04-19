@@ -17,6 +17,8 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Outfit:wght@100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -54,7 +56,7 @@
                         <a type="button" class="btn btn-nav btn-outline-dark me-2"" href="{{ route('login') }}">{{ __('Fazer Login') }}</a>
                         @endif
                         @if (Route::has('register'))
-                        <a type="button" class="btn btn-nav bg-green text-dark fw-bold me-2"" href="{{ route('register') }}">{{ __('Cadastrar') }}</a>
+                        <a type="button" class="btn btn-nav btn-dark me-2" href="{{ route('register') }}">{{ __('Cadastrar') }}</a>
                         @endif
                     @else
                     <a class="btn btn-dark" type="submit" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
